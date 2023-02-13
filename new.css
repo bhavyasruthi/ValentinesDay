@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    background-color: white;
+  }
+ 
+  #button{
+    position: absolute;
+  }
+  .heart{
+    width: 50px;
+    height: 50px;
+    top:50%;
+    position: fixed;
+    left: 50%;
+    margin-top: -45px;
+    margin-left: -50px;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    transition: background 0.5s ease;
+  }
+  .heart:hover{
+  
+  }
+  .active#heart:before,.active#heart:after{
+    background: red !important;
+  }
+  #heart {
+      width: 100px;
+      height: 90px;
+      transition: background 0.5s ease;
+  }
+  #heart:before,
+  #heart:after {
+    transition: background 0.5s ease;
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: red;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+  }
+  #heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin :100% 100%;
+  }
+
+  .section-style .btn {
+    position: absolute;
+    top: 82%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(211, 63, 63);
+    color: white;
+    font-size: 11px;
+    padding: 12px 24px;
+    border-width: 1px;
+    border-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .section-style .btn:hover {
+    background-color: black;
+  }
+  .unstyled-button {
+    border: none;
+    padding: 0;
+    background: none;
+  }
+  
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px red solid;
+  }
+  .image2 {
+    position: absolute;
+    top: 150px;
+    left: 170px;
+    border: 1px green solid;
+  }

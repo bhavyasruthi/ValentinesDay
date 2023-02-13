@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    background-color: white;
+  }
+  
+  div {
+    margin-top: 15px;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-style {
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: white;
+  }
+
+  .section-style .btn {
+    position: absolute;
+    top: 92.5%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(211, 63, 63);
+    color: white;
+    font-size: 14px;
+    padding: 12px 24px;
+    border-width: 1px;
+    border-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .section-style .btn:hover {
+    background-color: black;
+  }
+
+  .h_container{
+    background-color: #cac7c7;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    display: inline-block;
+    width:35px;
+    height:35px;
+    text-align:center;
+    line-height:45px;
+
+}
+.unstyled-button {
+    border: none;
+    padding: 0;
+    background: none;
+  }
+  
+  .testbtn:hover {
+    background-color: green;
+        top: 1px;
+        border-bottom-width: 3px;
+        margin-bottom:1px;
+  }
